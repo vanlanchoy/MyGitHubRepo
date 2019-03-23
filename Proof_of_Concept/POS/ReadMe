@@ -1,0 +1,4 @@
+This is an incomplete project just for proof of concept with many working features, 
+such as module to connect to remote server for database call, connection to bluetooth receipt printer(STAR brand), 
+in device floor plan drawing, email receipt, get device location, and currently only supported in low resolution screen. 
+To make it work in higher resolution screen you have to create your own layout files. Welcome to download and customize for you own needs. 
