@@ -1,3 +1,0 @@
-Monetize
--force user to pay $0.01 per 10 paypal transactions
--credit card transaction charge

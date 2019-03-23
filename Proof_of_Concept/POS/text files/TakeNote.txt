@@ -1,2 +1,0 @@
-1.Support 88mm paper printing only
-2.support English language only
