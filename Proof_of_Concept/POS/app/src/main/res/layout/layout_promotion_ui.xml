@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Promotion"
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/tvActivityTitle"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/green_border_add"
+                    android:id="@+id/imgCreatePromotion"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/tvActivityTitle"/>
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/left_arrow"
+                    android:layout_toRightOf="@+id/imgCreatePromotion"
+                    android:id="@+id/imgPrevious"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11/11/2111"
+                    android:id="@+id/tvDateDisplayLabel"
+                    android:layout_toRightOf="@+id/imgPrevious"
+                    android:layout_marginTop="10dp"
+                    android:textSize="30dp"/>
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/right_arrow"
+
+                    android:id="@+id/imgNext"
+                    android:layout_toRightOf="@+id/tvDateDisplayLabel"
+                    android:layout_marginTop="10dp"/>
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/imgFilter"
+                    android:src="@drawable/filter_green"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvMonth"
+                    android:text="Month"
+                    android:layout_toLeftOf="@id/imgFilter"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:textColor="@color/divider_grey"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvWeek"
+                    android:text="Week"
+                    android:layout_toLeftOf="@id/tvMonth"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:textColor="@color/divider_grey"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvDay"
+                    android:text="Day"
+                    android:layout_toLeftOf="@id/tvWeek"
+                    android:layout_marginTop="15dp"
+
+                    android:gravity="center"
+                    android:background="@drawable/drawable_green_checkout_unfilled_round_corner"
+                    android:textColor="@color/green"/>
+
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/llDayPanel"
+                android:visibility="gone">
+                <tme.pos.CustomViewCtr.MyScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="630dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/svDailyPanel"
+                    >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1445dp"
+                        android:id="@+id/rlDailyUIPanel"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tblDayView"
+
+                            >
+
+
+                        </TableLayout>
+                    </RelativeLayout>
+
+                </tme.pos.CustomViewCtr.MyScrollView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/llWeeklyPanel"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tblWeeklyCalendarHeader">
+
+                </TableLayout>
+                <tme.pos.CustomViewCtr.MyScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="595dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/svWeeklyPanel"
+                    >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1415dp"
+                        android:id="@+id/rlWeeklyUIPanel"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="1440dp"
+                            android:id="@+id/tblWeeklyView"
+                            >
+
+
+                        </TableLayout>
+                    </RelativeLayout>
+
+                </tme.pos.CustomViewCtr.MyScrollView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/llMonthlyPanel"
+                android:orientation="vertical"
+
+                android:visibility="gone">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tblMonthlyCalendarHeader">
+
+                </TableLayout>
+                <tme.pos.CustomViewCtr.MyScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="595dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/svMonthlyPanel"
+                    >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rlMonthlyUIPanel"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tblMonthlyView"
+                            >
+
+
+                        </TableLayout>
+                    </RelativeLayout>
+
+                </tme.pos.CustomViewCtr.MyScrollView>
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="200px"
+            android:layout_marginLeft="200px"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:id="@+id/filterBar"
+            android:background="@color/transparent_black_20_percent"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:visibility="invisible"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Apply"
+                        android:textSize="20dp"
+                        android:id="@+id/tvApplyFilter"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/green"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/green_border_back"
+                        android:rotation="180"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/imgHideFilterBar"/>
+                </RelativeLayout>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Show All"
+                    android:textColor="@color/white"
+                    android:id="@+id/chkShowAllPromotion"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/promotionListPanel">
+                    </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

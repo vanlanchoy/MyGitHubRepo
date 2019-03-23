@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="top_menu_category_text_size">24dp</dimen>
+    <dimen name="popup_window_label_text_size">30dp</dimen>
+    <dimen name="add_category_edit_text_size">24dp</dimen>
+    <dimen name="dp_add_menu_item_title">50dp</dimen>
+    <dimen name="dp_add_menu_item_text">30dp</dimen>
+    <dimen name="dp_add_menu_item_modifier_text">35dp</dimen>
+
+</resources>

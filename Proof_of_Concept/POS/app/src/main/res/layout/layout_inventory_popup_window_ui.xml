@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="800dp"
+    android:layout_height="800dp"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/lblInventory"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Inventory"
+            android:background="@color/light_green"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:textSize="35dp"/>
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/green_border_cancel"
+            android:id="@+id/imgBtnCancel"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/imgBtnInventoryPanelCollapse"
+            android:background="@drawable/collapse"/>
+        <LinearLayout
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/InventoryPropertiesPanel">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/InventoryPropertiesPlaceHolder"
+                android:visibility="gone"
+                android:background="@color/transparent"></FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@color/white_green"
+                android:id="@+id/llInventoryProperties">
+              <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/imgItemPic"
+                        android:background="@drawable/photo_not_available"
+                        android:layout_marginLeft="20dp"/>
+                   <!-- <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="X Remove"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:id="@+id/tvRemovePic"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"/>-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:id="@+id/tvItemName"
+                        android:text="this is a very long item name displaying 123456789"
+                        android:layout_marginLeft="10dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+
+                        >
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Date and Time: "
+                            android:textSize="25dp"
+                            android:gravity="right"
+                            android:id="@+id/tvDateTime"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="01/01/2005"
+                            android:id="@+id/tvDate"
+                            android:textSize="25dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12:00 PM"
+                            android:id="@+id/tvTime"
+                            android:textSize="25dp"
+                            android:layout_marginLeft="20dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+
+                        >
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Cost : "
+                            android:textSize="25dp"
+                            android:gravity="right"
+                            android:id="@+id/tvCostBasis"
+                            />
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:digits="0123456789.,$"
+                            android:gravity="left|center_vertical"
+                            android:hint="@string/label_default_price"
+                            android:inputType="numberDecimal|number"
+                            android:textSize="25dp"
+                            android:id="@+id/txtCostBasis"
+                            />
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="unit: "
+                            android:textSize="25dp"
+                            android:gravity="right"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/tvUnit"
+                            />
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:hint="0"
+                            android:inputType="number"
+                            android:textSize="25dp"
+                            android:id="@+id/txtUnit"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:id="@+id/tvSupplier"
+                            android:text="Supplier: "/>
+                        <Spinner
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ddlSupplier"
+                            android:layout_marginTop="-10dp"></Spinner>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="120dp"
+
+                        >
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="Add"
+                            android:id="@+id/btnAdd"
+                            android:background="@color/top_category_item_lost_focus_grey"
+                            android:textColor="@color/light_green"
+                            android:gravity="center"
+                            android:layout_marginLeft="30dp"/>
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:text="Cancel"
+                            android:id="@+id/btnCancel"
+                            android:background="@color/top_category_item_lost_focus_grey"
+                            android:textColor="@color/light_green"
+                            android:gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:visibility="invisible"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/inventory_black"/>
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100000"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/tvUnitAvailable"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Barcode: N/A"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/tvBarcode"/>
+            </LinearLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:id="@+id/tblInventoryLabel">
+                <TableRow>
+
+
+                    <TextView android:text="Date"
+                        android:id="@+id/lblDateTime"
+                        android:background="@drawable/draw_border_without_right"
+                        android:layout_height="33dp"
+                        android:layout_width="250dp"
+                        android:gravity="center"/>
+
+                    <TextView android:text="Unit"
+                        android:id="@+id/lblUnit"
+                        android:background="@drawable/draw_border_without_right"
+                        android:layout_height="33dp"
+                        android:layout_width="100dp"
+                        android:gravity="center"/>
+                    <TextView android:text="Cost"
+                        android:id="@+id/lblCostBasis"
+                        android:background="@drawable/draw_border_without_right"
+                        android:layout_height="33dp"
+                        android:layout_width="150dp"
+                        android:gravity="center"/>
+                    <TextView android:text="Supplier"
+                        android:id="@+id/lblSupplier"
+                        android:background="@drawable/draw_border"
+                        android:layout_height="33dp"
+                        android:layout_width="200dp"
+                        android:gravity="center"/>
+
+                </TableRow>
+            </TableLayout>
+            <ScrollView
+                android:layout_width="740dp"
+                android:layout_height="330dp"
+                android:id="@+id/scrInventoryTable"
+                >
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:id="@+id/tblInventoryRecord"
+                    android:layout_marginTop="-10dp">
+
+
+                </TableLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

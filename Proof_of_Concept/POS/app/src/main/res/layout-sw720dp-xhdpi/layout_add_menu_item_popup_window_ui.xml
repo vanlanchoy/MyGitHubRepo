@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <TextView
+            android:id="@+id/lblNewItemWindowTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/label_create_menu_item_in_popup_window"
+            android:textSize="30sp"
+
+            />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/green_border_save"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="150dp"
+            android:id="@+id/imgSaveAddNew"
+            android:layout_alignParentRight="true"
+            />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/green_border_delete"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="80dp"
+            android:id="@+id/imgDelete"
+            android:layout_alignParentRight="true"
+            />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/green_border_cancel"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+
+            android:id="@+id/imgCancelAddNew"
+            />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/imgItemPic"
+                        android:background="@drawable/photo_not_available"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="20dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="X Remove"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:id="@+id/tvRemovePic"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:visibility="invisible"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="500dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:paddingTop="10dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/lblItemName"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/label_create_menu_item_name_popup_window"
+                            android:textSize="30dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/txtItemName"
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:hint="@string/hint_create_menu_item_in_popup_window"
+                            android:inputType="textCapSentences|textAutoCorrect"
+
+                            android:imeOptions="actionDone"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:paddingTop="10dp">
+
+                        <TextView
+                            android:id="@+id/lblItemPrice"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="right"
+                            android:text="@string/label_create_menu_item_price_popup_window"
+                            android:textSize="30dp"
+
+
+                            />
+
+
+                        <EditText
+                            android:id="@+id/txtItemPrice"
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:digits="0123456789.,$"
+                            android:gravity="left|center_vertical"
+                            android:hint="@string/label_default_price"
+                            android:inputType="numberDecimal|number"
+
+
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="10dp">
+                        <TextView
+                            android:id="@+id/lblBarcode"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="Barcode:"
+                            android:textSize="30dp"
+
+
+                            />
+
+                        <EditText
+                            android:id="@+id/txtBarcode"
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:digits="0123456789"
+                            android:gravity="left|center_vertical"
+                            android:hint="Barcode if any"
+                            android:inputType="number"
+
+
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_do_not_track_inventory_create_menu_item_name_popup_window"
+                            android:id="@+id/chkDoNotTrack"
+                            android:checked="true"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:id="@+id/lblModifier"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:text="Modifier"
+                android:textColor="@color/divider_grey"
+                android:textSize="30dp"
+                android:textAlignment="center"/>
+
+            <LinearLayout
+                android:id="@+id/tabModifier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/tabModifierIndividual"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/half_transparent_dark_grey"
+                    android:gravity="center"
+                    android:text="Individual" />
+
+                <LinearLayout
+                    android:id="@+id/dividerTabTitle"
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="#D0D0C0"
+                    android:orientation="vertical"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tabModifierGlobal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Global" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tblModifier">
+
+                <TableRow android:layout_marginTop="20dp"
+                    android:id="@+id/trAddNewModifier"
+
+                    >
+
+
+                </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

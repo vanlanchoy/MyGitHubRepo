@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ShowDeleteOption" format="string"/>
+    <attr name="ShowAddNewRowOption" format="string"/>
+    <declare-styleable name="MenuItemOptionOrderRow" >
+        <attr name="ShowAddNewRowOption"/>
+        <attr name="ShowDeleteOption"/>
+    </declare-styleable>
+    <declare-styleable name="PromotionAddRuleItemSelectionRow">
+        <attr name="ShowAddNewRowOption"/>
+        <attr name="ShowDeleteOption"/>
+    </declare-styleable>
+</resources>

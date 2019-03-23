@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="500dp"
+    android:layout_height="500dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select an item from the category"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/tvMsg"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:id="@+id/txtTitle"
+        android:visibility="gone"
+        android:textSize="28dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/llParent">
+            <tme.pos.CustomViewCtr.PromotionAddRuleItemSelectionRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ShowDeleteOption="false"
+                app:ShowAddNewRowOption="true">
+            </tme.pos.CustomViewCtr.PromotionAddRuleItemSelectionRow>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/divider_grey"
+        android:layout_marginTop="5dp"></LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/tvOK"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"/>
+</LinearLayout>

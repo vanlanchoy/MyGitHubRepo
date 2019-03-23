@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/PopupOptionPanel"
+   >
+
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMoveLeft"
+        android:text="Lft"
+        android:textColor="#A9F5A9"
+        android:background="@drawable/draw_popup_category_option_swap_left_button"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEditCategory"
+        android:text="Edt"
+        android:textColor="#0080FF"
+        >
+    </Button>
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnHot"
+        android:text="Hot"
+        android:textColor="#FE642E"
+        >
+    </Button>
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDelCategory"
+        android:text="Del"
+        android:textColor="#FF0000"
+        >
+    </Button>
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMoveRight"
+        android:text="Rgt"
+        android:textColor="#F4FA58"
+        />
+
+</LinearLayout>

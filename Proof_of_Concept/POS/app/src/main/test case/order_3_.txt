@@ -1,0 +1,24 @@
+snack
+fries $1.00
+
+beverage
+soda $1.00
+
+b
+beef $0.50
+Fish $1.00
+
+discount
+1x fries
+1x any
+1x soda
+-33.33%
+
+cart #1
+1x fries
+
+cart #2
+1x beef
+
+cart #3
+1x soda

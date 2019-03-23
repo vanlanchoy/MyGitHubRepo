@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:descendantFocusability="afterDescendants"
+
+   >
+    <LinearLayout
+        android:layout_width="1500dp"
+        android:layout_height="1500dp"
+        android:descendantFocusability="afterDescendants"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="top"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_create_category_item_in_popup_window"
+            android:textSize="@dimen/popup_window_label_text_size"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:id="@+id/lblNewCategoryWindowTitle"
+            />
+        <EditText
+            android:layout_width="375dp"
+            android:layout_marginTop="20dp"
+            android:maxLength="25"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_create_category_item_in_popup_window"
+            android:inputType="textCapSentences|textAutoCorrect"
+            android:layout_gravity="center"
+            android:id="@+id/txtNewCategoryName">
+            <requestFocus/>
+            </EditText>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/rlParent">
+            <Button
+            android:id="@+id/btnSave_AddCategoryPopup"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Save"
+
+            />
+            <Button
+            android:id="@+id/btnClose_AddCategoryPopup"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_toRightOf="@+id/btnSave_AddCategoryPopup"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

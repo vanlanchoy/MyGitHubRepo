@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="header_receipt" />
+    <item type="id" name="header_printer" />
+   <!-- <item type="id" name="header_expiration" />-->
+    <item type="id" name="header_about" />
+    <item type="id" name="header_notification" />
+</resources>

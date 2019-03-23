@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvServer"
+            android:text="Server"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="@drawable/drawable_green_checkout_unfilled_round_corner"
+            android:textColor="@color/green"/>
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSupplier"
+            android:text="Supplier"
+            android:layout_toRightOf="@id/tvServer"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="@color/divider_grey"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="0.7"
+        >
+       <fragment android:name="tme.pos.ServerUIFragment"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/frgServer"/>
+       <fragment
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:name="tme.pos.SupplierUIFragment"
+           android:id="@+id/frgSupplier"
+           />
+    </LinearLayout>
+</LinearLayout>

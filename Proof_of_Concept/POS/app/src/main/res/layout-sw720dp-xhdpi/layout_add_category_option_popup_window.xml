@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+        <TextView
+            android:id="@+id/lblWindowTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/label_create_category_item_in_popup_window"
+            android:textSize="30dp"
+
+            />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/green_border_save"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="150dp"
+            android:id="@+id/imgSave"
+            android:layout_alignParentRight="true"
+            />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/green_border_delete"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="80dp"
+            android:id="@+id/imgDelete"
+            android:layout_alignParentRight="true"
+            />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/green_border_cancel"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/imgCancel"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+
+
+
+        <LinearLayout
+            android:layout_width="800dp"
+            android:layout_height="200dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="50dp">
+
+            <TextView
+                android:id="@+id/lblCategoryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:gravity="right"
+                android:text="@string/label_create_category_name_popup_window"
+                android:textSize="30sp"
+
+
+                />
+
+            <EditText
+                android:id="@+id/txtCategoryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:hint="@string/hint_create_menu_item_in_popup_window"
+                android:inputType="textCapSentences|textAutoCorrect"
+
+                android:imeOptions="actionDone">
+                <requestFocus/>
+                </EditText>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

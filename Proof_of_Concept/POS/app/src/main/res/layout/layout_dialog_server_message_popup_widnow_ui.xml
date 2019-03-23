@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="700dp"
+    android:layout_height="500dp">
+    <RelativeLayout
+        android:layout_width="700dp"
+        android:layout_height="100dp"
+        android:background="@drawable/draw_alert_dialog_title_bottom_border"
+       >
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message To You:"
+        android:layout_marginLeft="30dp"
+        android:textSize="40dp"
+        android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/tvTitle"/>
+        <ImageButton
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:background="@drawable/green_border_cancel"
+            android:id="@+id/imgCancel"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp">
+            </ImageButton>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message goes here....."
+        android:textSize="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/tvMsg"/>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="Notification"
+        android:summary="03/03/2015 Message" >
+    </Preference>
+    <Preference
+        android:title="Build"
+        android:summary="Version x.x.x"></Preference>
+</PreferenceScreen>

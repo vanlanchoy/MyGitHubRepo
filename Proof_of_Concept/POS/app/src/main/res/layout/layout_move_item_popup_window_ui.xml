@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="915dp"
+    android:layout_height="700dp"
+    android:id="@+id/dialogPanel"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Move Items"
+        android:textColor="@color/divider_grey"
+        android:layout_marginTop="10dp"
+        />
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="580dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/svItems"
+      >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@id/tblItems"
+
+            >
+        </TableLayout>
+    </ScrollView>
+
+
+
+
+    <ScrollView
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/svReceipt">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:id="@+id/tblReceiptContainer"
+            android:paddingLeft="5dp"
+            >
+
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

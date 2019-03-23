@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Spinner
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spCategory"
+                android:layout_alignParentLeft="true"
+                ></Spinner>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/green_border_delete"
+                android:id="@+id/imgDelete"
+                android:layout_alignParentRight="true"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/green_border_add"
+                android:id="@+id/imgAdd"
+
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit: "
+            android:textSize="22dp"
+            android:id="@+id/tvUnit"/>
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtUnit"
+            android:inputType="number"
+            android:maxLength="4"
+            android:singleLine="true"
+            android:text="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X "
+            android:textSize="22dp"
+            android:id="@+id/tvX"/>
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/spItem"
+            android:layout_gravity="center_horizontal"></Spinner>
+
+    </LinearLayout>
+
+
+</merge>

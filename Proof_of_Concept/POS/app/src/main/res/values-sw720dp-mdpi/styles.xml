@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="TopBarImageButtonStyle">
+        <item name="android:minHeight">24dp</item>
+        <item name="android:minWidth">24dp</item>
+        <item name="android:maxHeight">24dp</item>
+        <item name="android:maxWidth">24dp</item>
+    </style>
+    <style name="PaymentLabels">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="SummationLabels">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">19dp</item>
+    </style>
+    <style name="SummationLabels2">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+    <style name="TopCategoryMenuItems">
+        <item name="android:textSize">@dimen/top_menu_category_text_size</item>
+        <item name="android:textColor">@color/top_category_item_lost_focus_text_grey</item>
+        <item name="android:background">@color/top_category_item_lost_focus_grey</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TopCategoryMenuAddItems">
+        <item name="android:textSize">@dimen/top_menu_category_text_size</item>
+        <item name="android:textColor">@color/add_new_category_item_text_grey</item>
+        <item name="android:background">@color/top_category_item_lost_focus_grey</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

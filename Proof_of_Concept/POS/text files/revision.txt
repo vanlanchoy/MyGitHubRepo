@@ -1,0 +1,624 @@
+--05/04/2015--
+working: 
+1. receipt lookup module
+2. create sales report page
+3. add location info into receipt
+
+To do list:
+-split receipt module
+-inventory module
+-add delete function to remove year old data
+-create receipt lookup for receipt cancellation
+-create system to output drawer password and application lock screen password to text file
+
+done:
+1. display table dropdown in receipt panel
+2. allow servant pforifle update
+
+--05/01/2015--
+working: 
+1. display table dropdown in receipt panel
+2. allow servant pforifle update
+
+To do list:
+-split receipt module
+-inventory module
+-create sales report page
+-add delete function to remove year old data
+-create receipt lookup for receipt cancellation
+-create system to output drawer password and application lock screen password to text file
+
+done:
+1. debugging add new table null pointer exception error after touching on the background to cancel an editing
+
+--04/30/2015--
+working:
+0. debugging add new table null pointer exception error after touching on the background to cancel an editing
+1. display table dropdown in receipt panel
+2. allow servant pforifle update
+
+To do list:
+-split receipt module
+-inventory module
+-create sales report page
+-add delete function to remove year old data
+-create receipt lookup for receipt cancellation
+-create system to output drawer password and application lock screen password to text file
+
+--04/29/2015--
+working:
+1. display table dropdown in receipt panel
+2. allow servant pforifle update
+
+To do list:
+-split receipt module
+-inventory module
+-create sales report page
+-add delete function to remove year old data
+-create receipt lookup for receipt cancellation
+-create system to output drawer password and application lock screen password to text file
+
+done:
+1. draw floor plan module
+2. add phone number for in servant profile
+
+--04/20/2015--
+working:
+1. draw floor plan module
+
+To do list:
+-split receipt module
+-inventory module
+-create sales report page
+-display table dropdown
+-add delete function to remove year old data
+-create receipt lookup for receipt cancellation
+-create system to output drawer password and application lock screen password to text file
+
+done:
+1. changing icon for edit,save,ok,cancel and delete
+2. creating receipt data table
+3. saving receipt
+4. linked servant to checkoutpanel
+
+
+--04/15/2015--
+working:
+-create check out panel for receipt printing
+-create receipt data table
+-saving receipt
+
+
+To do list:
+-create sales report page
+-link servant to checkoutpanel
+-display table dropdown
+-add delete function to remove year old data
+-create receipt lookup for receipt cancellation
+-create system to output drawer password and application lock screen password to text file
+
+done:
+1.add/remove servant animation
+
+--04/14/2015--
+working:
+-create check out panel for receipt printing
+-create receipt data table
+-saving receipt
+-add/remove servant animation
+
+To do list:
+-create sales report page
+-link servant to checkoutpanel
+-display table dropdown
+-add delete function to remove year old data
+-create receipt lookup for receipt cancellation
+-create system to output drawer password and application lock screen password to text file
+
+Done:
+1. Add/Remove Servant UI
+2. bug fix for discount in checkout
+3. load servant list in checkout
+
+
+--04/12/2015--
+working:
+-create check out panel for receipt printing
+-create receipt data table
+-saving receipt
+-create servant ui
+
+To do list:
+-create sales report page
+-link servant to checkoutpanel
+-display table dropdown
+-add delete function to remove year old data
+-create receipt lookup for receipt cancellation
+-create system to output drawer password and application lock screen password to text file
+
+Done:
+1. Updated printer preference UI 
+
+--04/05/2015--
+working:
+-create check out panel for receipt printing
+-create receipt data table
+-saving receipt
+
+
+To do list:
+-create sales report page
+-create servant ui
+-link servant to checkoutpanel
+-display table dropdown
+-add delete function to remove year old data
+-create receipt lookup for receipt cancellation
+-create system to output drawer password and application lock screen password to text file
+
+Done:
+1. Integrated printing module 
+
+--04/01/2015--
+working:
+-create check out panel for receipt printing
+-create receipt data table
+-saving receipt
+
+
+To do list:
+-create sales report page
+-create servant ui
+-link servant to checkoutpanel
+-display table dropdown
+-add delete function to remove year old data
+-create receipt lookup for receipt cancellation
+-create system to output drawer password and application lock screen password to text file
+
+
+--03/31/2015--
+working:
+-create check out panel for receipt printing
+
+To do list:
+-create sales report page
+-add delete function to remove year old data
+-create receipt lookup for receipt cancellation
+-create system to output drawer password and application lock screen password to text file
+
+
+--03/26/2015--
+working:
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+-create system to output drawer password and application lock screen password to text file
+
+--03/24/2015--
+working:
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+
+--03/23/2015--
+working:
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+
+
+--03/22/2015--
+working:
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+
+done:
+1. bug fixed, now total will update after deleting category item
+
+--03/21/2015--
+working:
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+
+
+done:
+1.created paypal app payment in settings
+
+--03/20/2015--
+working:
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+-create paypal app payment in settings
+
+done:
+1.created receipt and printer and app notification page in settings
+
+--03/19/2015--
+working:
+-create receipt and printer and app notification page in settings
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+
+
+
+done:
+1.**REFIXED** animation show on wrong receipt row when item unit update
+
+--03/18/2015--
+working:
+-create receipt and printer and app notification page in settings
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+
+
+
+done:
+1.fixed animation show on wrong receipt row when item unit update
+
+
+--03/17/2015--
+working:
+-create receipt and printer and app notification page in settings
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+-animation show on wrong receipt row when item unit update
+
+done:
+1.create header preference
+
+--03/16/2015--
+working:
+-create receipt and printer and app notification page in settings
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+
+done:
+1.creating new table for receipt and payment type
+2.going to remove modifier page view and replace it with drop down
+3.create expiration date datatable
+4.create service submit device id to server and retrieve expiration date
+5.fixed the pageviewer won't displayed problem after add/update item or
+
+--03/12/2015--
+working:
+-creating new table for receipt and payment type
+-going to remove modifier page view and replace it with drop down 
+-create receipt and printer and app notification page in settings
+-create service submit device id to server and retrieve expiration date
+-create expiration date datatable
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+
+done:
+1.created generic function call to register device profile.
+
+--03/12/2015--
+working:
+-creating new table for receipt and payment type
+-going to remove modifier page view and replace it with drop down 
+-create receipt and printer and app notification page in settings
+-create service submit device id to server and retrieve expiration date
+-create expiration date datatable
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+
+done:
+1.created generic function call to get expiration date with device profile.
+
+--03/10/2015--
+working:
+-creating new table for receipt and payment type
+-going to remove modifier page view and replace it with drop down 
+-create receipt and printer and app notification page in settings
+-create service submit device id to server and retrieve expiration date
+-create expiration date datatable
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+
+done:
+1.created service to talk to server
+2.moved new message notification to new added parent relative layout
+3.soap error message will not be displayed
+4.moved application setting class to static parent
+5.added uncaught exception in Settings activity
+
+--03/09/2015--
+working:
+-creating new table for receipt and payment type
+-going to remove modifier page view and replace it with drop down 
+-create receipt and printer and app notification page in settings
+-create service to talk to server
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+
+done:
+1.added ksoap library into the project for soap web service call
+2.server message notificaion UI
+
+--03/08/2015--
+working:
+-creating new table for receipt and payment type
+-going to remove modifier page view and replace it with drop down 
+-create receipt and printer and app notification page in settings
+-create service to talk to server
+-create sales report page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+
+done:
+1.updated tax input UI
+
+--03/07/2015--
+working:
+-creating new table for receipt and payment type
+-going to remove modifier page view and replace it with drop down 
+-update tax input UI
+-create receipt and printer and app notification page in settings
+-create service to talk to server
+-create graph page
+-add delete function to remove year old data
+-create check out panel for receipt printing
+-create receipt lookup for receipt cancellation
+
+done:
+1.fixed item didn't show after performing update/delete operation
+2.fixed tap to add category window popup multiple time when keep on tapping
+3.changed tap to add item window will slide down after clicking cancel
+4.fixed item/modifier will update it self after clicking save button even though value hasn't changed 
+5.will check delete item and a global modifier in there and later update to remove affected cart item
+
+--03/06/2015--
+working:
+-creating new table for receipt and payment type
+-going to remove modifier page view and replace it with drop down 
+-check delete item and a global modifier in there and later update to remove affected cart item
+
+done:
+1.fixed category border didn't move to left if deleted a left to selected category
+2.Will update cart item if a category has been deleted
+3.'tap to add' button doesn't showed after removed all modifiers
+4.affected global modifier related item will be removed from the cart
+5.affected individual modifier related item will be removed from the cart
+
+--03/05/2015--
+woking:
+-creating new table for receipt and payment type
+-going to remove modifier page view and replace it with drop down 
+
+
+done:
+1.fixed duplicated category item on top menu container and grid view
+2.changed drag and drop position change 
+3.fixed menuitempanel top border disappered after slide up
+
+--03/04/2015--
+woking:
+-creating new table for receipt and payment type
+-going to remove modifier page view and replace it with drop down 
+
+done:
+changed category popup to use CategoryOptionPopup layout
+
+--03/03/2015--
+working:
+create category popup
+
+
+--03/02/2015--
+working:
+-delete and update cart item
+-send message to server
+-revamp category option popup
+
+done:
+1.will combine count if cart items are the same
+2. item count now based on summation of unit order 
+3.edit already added receipt item
+
+--03/01/2015--
+working:
+-edit already added receipt item
+-add delete to existing item
+
+done:
+Added company profile setting page
+
+--02/27/2015--
+working:
+-edit already added receipt item
+-add delete to existing item
+
+done:
+1.fixed flipable menu item reset color problem
+
+--02/23/2015--
+working:
+-edit already added receipt item
+-add delete to existing item
+
+done:
+-add edit and delete sql operations with transaction 
+-change the subject title in 'AddNewMenuItemFragment' from 'Add New Item' -> 'Edit Item'
+-allow user to edit item and modifiers
+
+--02/22/2015--
+working:
+-edit already added receipt item
+-add edit and delete sql operations with transaction 
+
+done:
+-completed saving new global modifier
+
+--02/18/2015--
+-edit already added receipt item
+-saving new global modifier
+-add edit and delete sql operations with transaction 
+
+done:
+-fixed null pointer exception when user start scrolling page while item modifier option popup show
+-Disabled multiple trigger to menu item options popup
+-added $ sign infront of the price when switching between individual and global
+-fixed Modifier page indicator container out of bound when item name is >29 chars
+
+--02/17/2015--
+working:
+-edit already added receipt item
+
+
+done:
+1.updated storeItem to storeItem2 type
+2.done working on page indicator + displaying modifiers
+3.done creating swipeable page view (horizontal scroll + tables)
+4.done finalize select item modifier page
+5.done working on adding item to receipt panel 
+adding animation to receipt insertion after selecting from modifier window
+6.done working on custom alert dialog for adding item to receipt
+
+--02/12/2015--
+working:
+-working on custom alert dialog for adding item to receipt
+-working on page indicator + displaying modifiers
+-creating swipeable page view (horizontal scroll + tables)
+
+done:
+1.fixed Background color of Item in item menu will change to white if swipe to end
+2.fixed tax modifier appears multiple time if tap multiple times, solution can refer to tap to add category
+
+--02/11/2015--
+working:
+-working on custom alert dialog for adding item to receipt
+-working on page indicator + displaying modifiers
+
+done:
+removing fragment custom alert dialog for adding item to receipt
+
+--02/10/2015--
+working:
+-working on custom alert dialog for adding item to receipt
+-working on page indicator + displaying modifiers
+
+--02/09/2015--
+working:
+-working on custom alert dialog for adding item to receipt
+-working on page indicator + displaying modifiers
+
+done:
+-can switch between individual and global modifier during create new menu item
+-added animation for menu item popup
+
+--02/08/2015--
+working:
+-working on custom alert dialog for adding item to receipt
+
+
+done:
+1.rewrote the code for slide down to show grid view
+2.increased menu item selection text size in page fragment
+3. implement check flag to prevent removing item from receipt while system still animating removal animation
+4.Only allow receipt item to flip when the control is done removing the item from UI
+
+--02/07/2015--
+1.working on custom alert dialog
+2.create a thread safe UI, for the following scenarios
+a)while deleting receipt item
+b)while deleting top category item 
+
+--02/06/2015--
+1.working on custom alert dialog
+
+--02/05/2015--
+1.fixed item receipt remove animation wrong direction issue
+2.standardize negative value with negate sign
+3.tap to add item now can display in receipt panel
+4.animated selected item to show in receipt panel
+5.now standardize double tap to show option (remove/cancel/edit)
+6.display green boarder line to drag to show grid view, when selected category view has been deleted
+7.fixed multiple trigger to add new category item
+8.don't calculate tax when amount is less than zero
+9.show toast when total amount updated
+10.show toast when all receipt items cleared
+11.show toast when tax value updated 
+
+--02/04/2015--
+1.double tapped to show popup option
+2.added animation when double tapped
+3.substitute drag-able area with green divider
+4.changed the item view color in grid view
+5.working on creating menu item on view page fragment
+
+--02/03/2015--
+1.working on saving/loading modifier items
+
+--02/02/2015--
+1.touching the page indicator can browse to any particular page associated with one's index
+2.can now show menu item after clicking on category
+3.create modifier table
+4.updated item text size + 'tap to add' text size
+5.default text color to light green if unpressed
+6.hid soft keyboard if user click save/cancel in create new menu item fragment
+
+--02/01/2015--
+1.can now save new item + displaying menu item after added new
+
+--01/31/2015--
+1.fixed grid view save new drag and drop position bug
+2.check  maximum category supported before adding new.
+3.show message in main ui activity now supported html tag
+4.selected item in grid view will have the same boarder with top menu container
+
+--01/30/2015--
+1.show toast when add/delete/edit category name
+2.display add menu item on pager fragment
+3.changed selected category border to green color with shadow effect
+4.bolded 'TAP TO ADD' in top menu container
+5.changed pager fragment view background color to whilte
+6.'TAP TO ADD' button for category will now flash when touching
+
+--01/29/2015
+1.move touch event to new linear layout **COMPLETED**
+2.following sub item didn't move up after the 1st sub item has been removed **COMPLETED**
+3.fixed swiped left/right delete animation **COMPLETED**
+4.check substring end index is exclusive **COMPLETE**
+5.fix on resume blank screen problem **IMCOMPLETE, DUE TO GOOGLE ANALYTICS APIs**
+6.send crash report **COMPLETED**
+7.keep modifier value under 1 million **COMPLETED**
+8.touch to delete modifier(s) **COMPLETED**
+
+*********************************************************FUTURE**********************************************************
+Add item to receipt:
+-Customizable receipt on picture
+
+Settings:
+-Prefixed receipt id
+
+Checkout:
+-add discount option for individual/total
+
+System:
+-check device id for installation and expired date
+-check device database for expiration date daily

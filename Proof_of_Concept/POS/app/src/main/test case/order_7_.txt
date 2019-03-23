@@ -1,0 +1,18 @@
+price 
+beef $6.50
+pork $5.50
+chicken $5.50
+
+discount #1
+1x beef
+1x pork
+-$2.00
+
+discount #2
+1x beef
+1x pork
+?? percentage backspace not working
+
+cart #1
+1x beef
+1x pork

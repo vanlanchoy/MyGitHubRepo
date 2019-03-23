@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainUIActivity"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/action_lock_action_bar"
+        android:icon="@drawable/lock_red"
+        android:title="Lock"
+        android:showAsAction="ifRoom|withText"
+        android:layout_height="match_parent"
+        />
+    <item
+        android:id="@+id/action_chart_action_bar"
+        android:icon="@drawable/chart_green"
+        android:title="Chart and Receipt"
+        android:showAsAction="ifRoom|withText"
+        android:layout_height="match_parent"
+        />
+    <item
+        android:id="@+id/action_floor_plan_action_bar"
+        android:icon="@drawable/green_floor_plan"
+        android:title="Floor Plan"
+        android:showAsAction="ifRoom|withText"
+        android:layout_height="match_parent"
+        />
+    <item
+        android:id="@+id/action_resource_management_action_bar"
+        android:icon="@drawable/management_green"
+        android:title="Management"
+        android:showAsAction="ifRoom|withText"
+        android:layout_height="match_parent"
+        />
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+       />
+
+    <item android:id="@+id/action_promotion"
+        android:title="Promotion"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_close_action_bar"
+        android:title="Hide"
+        android:icon="@drawable/up_arrow_green_stroke"
+        android:showAsAction="ifRoom|withText"
+
+    />
+    <item android:id="@+id/action_monitor"
+        android:title="Monitor"
+        android:showAsAction="never" />
+</menu>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="Device Id"
+        android:summary="unknown" >
+    </Preference>
+    <Preference
+        android:title="Account Id"
+        android:summary="unknown">
+    </Preference>
+    <!--<tme.pos.LockScreenDialogPreference
+        android:title="Lock Screen"
+        android:summary="Not set">
+    </tme.pos.LockScreenDialogPreference>-->
+    <tme.pos.SendReceiptEmailPreference
+        android:title="Gmail account to send out receipt"
+        android:summary="Not Set">
+    </tme.pos.SendReceiptEmailPreference>
+    <tme.pos.BackupDialogPreference
+        android:title="Backup"
+        android:summary="Save and load your data">
+    </tme.pos.BackupDialogPreference>
+    <tme.pos.RegisterDialogPreference
+        android:title="Register Device"
+        android:summary="Register your device with, so that to unlock some in-app features">
+    </tme.pos.RegisterDialogPreference>
+</PreferenceScreen>

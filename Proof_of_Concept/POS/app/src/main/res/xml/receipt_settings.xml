@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <tme.pos.ReceiptNumberPrefixDialogPreference
+        android:id="@+id/ReceiptNumberPrefix"
+        android:title="Receipt Number Prefix"
+        android:summary="Prefix the receipt number with any character, maximum up to 5 characters."
+            >
+        </tme.pos.ReceiptNumberPrefixDialogPreference>
+
+    <SwitchPreference
+        android:textOn="Barcode"
+        android:switchTextOn="Barcode"
+        android:textOff="Numeric"
+        android:switchTextOff="Numeric"
+        android:title="Receipt# Barcode"
+        android:summary="Print receipt# in barcode format"
+        android:textSize="30dp"
+        android:saveEnabled="true"
+        >
+    </SwitchPreference>
+        <EditTextPreference android:title="Header Note"
+            android:summary="The words will be printed after company profile section."
+            android:textSize="@dimen/dp_settings_receipt_number_prefix_text_size"
+            android:fontFamily="@string/app_font_family"
+            android:maxLength="200"
+            android:key="@string/RECEIPT_HEADER_TEXT_KEY"></EditTextPreference>
+        <SwitchPreference
+            android:textOn="Center"
+            android:switchTextOn="Center"
+            android:textOff="Left"
+            android:switchTextOff="Left"
+            android:title="Header Alignment"
+            android:summary="Text alignment setting"
+            android:textSize="30dp"
+            android:saveEnabled="true"
+            >
+        </SwitchPreference>
+
+        <EditTextPreference android:title="Footer Note"
+            android:summary="The words will be printed at the bottom of the receipt."
+            android:textSize="@dimen/dp_settings_receipt_number_prefix_text_size"
+              android:fontFamily="@string/app_font_family"
+            android:maxLength="200"
+            android:key="@string/RECEIPT_FOOTER_TEXT_KEY">
+            </EditTextPreference>
+        <SwitchPreference
+            android:textOn="Center"
+            android:switchTextOn="Center"
+            android:textOff="Left"
+            android:switchTextOff="Left"
+            android:title="Footer Alignment"
+            android:summary="Text alignment setting"
+            android:textSize="30dp"
+            android:saveEnabled="true"
+            >
+        </SwitchPreference>
+        <tme.pos.CompanyProfileDialogPreference
+            android:id="@+id/CompanyProfileDialog"
+            android:key="tme_pos_app_pref_company_profile"
+            android:title="@string/company_profile_activity_label"
+            android:summary="Company information on receipt"
+            />
+    <EditTextPreference
+        android:title="QR Code URL"
+        android:maxLength="200"
+        android:summary="Include any web link to be printed at the bottom of your receipt."
+        android:textSize="25dp"
+        android:fontFamily="@string/app_font_family"
+        android:key="@string/RECEIPT_QR_CODE_URL_TEXT_KEY"
+        android:hint="http://www.TME.com/Nmbor"/>
+
+
+</PreferenceScreen>

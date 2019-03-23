@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/llMain">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/imgBtnScribble"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/scribble_green"/>
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/imgBtnLine"
+            android:layout_toRightOf="@+id/imgBtnScribble"
+            android:background="@drawable/line_green"/>
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/imgBtnArc"
+            android:layout_toRightOf="@+id/imgBtnLine"
+            android:background="@drawable/arc_green"/>
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="60dp"
+            android:background="@color/divider_grey"
+            android:id="@+id/divider1"
+            android:layout_toRightOf="@+id/imgBtnArc"></LinearLayout>
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/imgBtnEraser"
+            android:layout_toRightOf="@+id/divider1"
+            android:background="@drawable/eraser_green"/>
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/imgBtnCopy"
+            android:layout_toRightOf="@+id/imgBtnEraser"
+            android:background="@drawable/copy_green"/>
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/imgBtnMove"
+            android:layout_toRightOf="@+id/imgBtnCopy"
+            android:background="@drawable/move_green"/>
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/imgBtnRotate"
+            android:layout_toRightOf="@+id/imgBtnMove"
+            android:background="@drawable/rotate_green"/>
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="60dp"
+            android:background="@color/divider_grey"
+            android:id="@+id/divider2"
+            android:layout_toRightOf="@+id/imgBtnRotate"></LinearLayout>
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/imgBtnTable"
+            android:background="@drawable/table_green"
+            android:layout_toRightOf="@+id/imgBtnCamera"/>
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/imgBtnCamera"
+            android:background="@drawable/camera_green"
+            android:layout_toRightOf="@+id/divider2"/>
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="60dp"
+            android:background="@color/divider_grey"
+            android:id="@+id/divider3"
+            android:layout_toRightOf="@+id/imgBtnTable"
+            android:orientation="horizontal"></LinearLayout>
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/imgBtnSave"
+            android:background="@drawable/green_border_save"
+            android:layout_toRightOf="@+id/divider3"/>
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/imgBtnClear"
+            android:background="@drawable/green_border_delete"
+            android:layout_toRightOf="@+id/imgBtnSave"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:gravity="center"
+
+            android:id="@+id/tvMode"
+            android:layout_toRightOf="@+id/imgBtnClear"/>
+        </RelativeLayout>
+
+<tme.pos.CustomViewCtr.FloorPlanCtr
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/add_new_category_item_text_grey"
+    android:id="@+id/llFloorPlan">
+
+    </tme.pos.CustomViewCtr.FloorPlanCtr>
+</LinearLayout>

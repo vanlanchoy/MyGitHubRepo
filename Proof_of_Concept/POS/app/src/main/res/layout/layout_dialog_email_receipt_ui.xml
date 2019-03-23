@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This Gmail account will be used to send receipt to customer."
+        android:textColor="@color/divider_grey"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:gravity="right"
+            android:id="@+id/tvEmail1"/>
+        <EditText
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:hint="MyShop@gmail.com"
+            android:id="@+id/txtEmailToRecipient1"
+            android:maxLength="50"
+            android:inputType="textEmailAddress"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Re-enter Email:"
+            android:gravity="right"
+            android:id="@+id/tvEmail2"/>
+        <EditText
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:hint="MyShop@gmail.com"
+            android:id="@+id/txtEmailToRecipient2"
+            android:maxLength="50"
+            android:inputType="textEmailAddress"/>
+    </LinearLayout>
+</LinearLayout>

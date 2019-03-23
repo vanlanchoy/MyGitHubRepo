@@ -1,0 +1,25 @@
+price
+beef $0.50
+fish $1.00
+
+
+discount
+-$0.33
+1x beef
+
+-$0.01
+2x beef
+
+-33.33%
+1x fish
+
+
+cart #1
+1x beef
+1x beef
+1x fish
+
+cart #2
+1x beef
+1x fish
+

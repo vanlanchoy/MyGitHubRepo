@@ -1,0 +1,22 @@
+price 
+beef $11.99
+pork $7.00
+
+discount #1
+2x beef
+-33.33%
+
+discount #2
+3x pork
+-$0.70
+
+cart #1
+1x pork
+1x beef
+
+cart #2
+1x pork
+1x beef
+
+cart #3
+1x pork

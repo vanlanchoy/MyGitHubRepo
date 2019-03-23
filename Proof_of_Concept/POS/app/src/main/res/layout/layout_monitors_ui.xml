@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow android:layout_width="match_parent">
+        <LinearLayout android:background="@color/discount_blue" android:orientation="vertical" android:layout_weight="0.5" android:layout_height="wrap_content" android:id="@+id/lyOrders"></LinearLayout>
+        <LinearLayout android:background="@color/discount_text_pink" android:orientation="vertical" android:layout_weight="0.5" android:layout_height="wrap_content" android:id="@+id/lyTblOrders"></LinearLayout>
+    </TableRow>
+    <TableRow android:layout_width="match_parent">
+        <LinearLayout android:background="@color/orange" android:orientation="vertical"  android:layout_height="wrap_content" android:id="@+id/lyReceipts"></LinearLayout>
+    </TableRow>
+    <TableRow android:layout_width="match_parent">
+        <LinearLayout android:background="@color/red" android:orientation="vertical"  android:layout_height="wrap_content" android:id="@+id/lyFloor"></LinearLayout>
+    </TableRow>
+</TableLayout>

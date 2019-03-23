@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dp_tap_to_add_button_width">800</string>
+    <string name="modifier_group_page_count">6</string>
+    <string name="price_limit">1000000</string>
+    <string name="company_profile_activity_label">Company Profile</string>
+
+    <string name="remove_orders"><u>Clear All</u></string>
+    <string name="app_name">Nmbor</string>
+    <string name="label_remove_orders">Clear</string>
+
+    <string name="label_total"><u>Total</u></string>
+    <string name="label_price"><u>Price</u></string>
+    <string name="label_item"><u>Item</u></string>
+    <string name="action_settings">Settings</string>
+    <string name="label_create_category_item_in_popup_window">Add New Category</string>
+    <string name="label_edit_tax_percentage_popup_window">Edit Tax Percentage</string>
+    <string name="label_alert_popup_title_for_delete_ordered_item">Remove</string>
+    <string name="label_create_menu_item_in_popup_window"><u>Add New Item</u></string>
+    <string name="hint_create_category_item_in_popup_window">Maximum %1$d characters</string>
+    <string name="hint_create_menu_item_in_popup_window">Maximum %1$d characters</string>
+    <string name="hint_create_modifier_item_in_popup_window">Maximum %1$d characters</string>
+    <string name="hint_server_name">Maximum %1$d characters</string>
+    <string name="hint_email">Maximum %1$d characters</string>
+    <string name="hint_receipt_header_and_footer_note_length">Maximum 200 characters</string>
+    <string name="hint_receipt_number_prefix">AAAAA</string>
+    <string name="hint_supplier_address">Maximum %1$d characters</string>
+    <string name="title_activity_settings">POS Settings</string>
+    <string name="pref_right_handed">Right-Handed</string>
+    <string name="pref_right_handed_sum">Layout for right handy</string>
+    <string name="app_font_family">"fonts/Abel-Regular.ttf"</string>
+    <string name="to_remove_item_sentence">Do you want to remove the selected item</string>
+    <string name="label_default_tax_percentage">00.000</string>
+    <string name="label_default_price">$0.00</string>
+    <string name="hint_supplier_max_length">Maximum %1$d characters</string>
+    <string name="label_create_tax_rate_popup_window">Tax Rate: </string>
+    <string name="label_create_category_name_popup_window">Category Name: </string>
+    <string name="label_create_menu_item_name_popup_window">Item Name: </string>
+    <string name="label_create_menu_item_price_popup_window">Item Price: </string>
+    <string name="label_create_menu_item_modifier_name_popup_window">Name: </string>
+    <string name="label_create_menu_item_modifier_price_popup_window">Price: </string>
+    <string name="label_edit_category_name_title_popup_window">Edit Category Name</string>
+    <string name="label_do_not_track_inventory_create_menu_item_name_popup_window">Do not track inventory count</string>
+
+    <string name="supplier_name_max_char">50</string>
+    <string name="email_address_max_char">40</string>
+    <string name="sub_item_row_dp_min_height">40</string>
+    <string name="item_name_view_dp_height"  >45</string>
+    <string name="sub_item_name_view_dp_height">40</string>
+    <string name="sp_text_size_for_row_item">22</string>
+    <string name="sp_text_size_for_row_sub_item">20</string>
+    <string name="dp_top_bottom_padding_size_for_row_item">7.5</string>
+    <string name="dp_top_bottom_padding_size_for_row_sub_item">0.0</string>
+    <string name="dp_left_right_padding_size_for_row_item">0</string>
+    <string name="dp_padding_size_for_row">2.5</string>
+    <string name="dp_top_margin_for_sub_item_price">1.5</string>
+    <string name="dp_top_margin_for_sub_item_name">-1.0</string>
+
+    <string name="sub_item_name_max_char">30</string>
+    <string name="invoice_item_name_max_char">50</string>
+    <string name="category_item_name_max_char">25</string>
+    <string name="receipt_footer_and_header_max_char">200</string>
+    <string name="invoice_item_per_page">10</string>
+    <string name="modifier_color_view_width_height_size">40</string>
+    <string name="supplier_address_max_char">200</string>
+
+
+    <string name="invoice_item_name_width_weight">0.33</string>
+    <string name="invoice_item_total_price_width_weight">0.33</string>
+    <string name="invoice_item_unit_price_width_weight">0.33</string>
+    <string name="invoice_sub_item_name_width_weight">0.30</string>
+    <string name="invoice_sub_item_unit_width_weight">0.345</string>
+    <string name="invoice_sub_item_price_width_weight">0.345</string>
+
+    <string name="page_indicator_circle_view_width">40</string>
+    <string name="page_indicator_circle_view_height">40</string>
+
+    <string name="max_category_item">20</string>
+    <string name="item_per_page_to_display_list_mode">50</string>
+    <string name="item_per_page_to_display_pic_mode">120</string>
+    <string name="max_item_per_category">500</string>
+    <string name="max_modifier_item">10</string>
+    <string name="server_name_max_char">30</string>
+    <string name="max_server">100</string>
+    <string name="max_supplier">200</string>
+    <string name="max_barcode_length">12</string>
+    <string name="list_view_mode_number_item_to_load_per_batch">25</string>
+    <string name="pic_view_mode_number_item_to_load_per_batch">25</string>
+
+
+    <string name="crash_filename">LastState.txt</string>
+    <string name="save_filename">SaveState.txt</string>
+    <string name="app_directory">/TMePOS/</string>
+    <string name="RECEIPT_HEADER_TEXT_KEY">tme_pos_receipt_header_text</string>
+    <string name="RECEIPT_FOOTER_TEXT_KEY">tme_pos_receipt_footer_text</string>
+    <string name="RECEIPT_QR_CODE_URL_TEXT_KEY">tme_pos_qr_code_url_text</string>
+    <string name="MAX_PROMOTION_ITEM_KIND_ALLOWED">10</string>
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Printer brands-->
+    <string-array name="printer_brand">
+        <item>Star Micronics</item>
+        <item>Rongta</item>
+    </string-array>
+    <!-- Printer paper widtch-->
+    <string-array name="printer_paper_width_both">
+        <item>58mm</item>
+        <item>80mm</item>
+    </string-array>
+    <string-array name="printer_paper_width_58">
+        <item>58mm</item>
+
+    </string-array>
+    <string-array name="printer_paper_width_80">
+
+        <item>80mm</item>
+    </string-array>
+    <!-- unknown Printer model-->
+    <string-array name="unknown_printer_model">
+        <item>Unknown</item>
+    </string-array>
+    <!-- Rongta Printer model-->
+    <string-array name="rongta_printer_model">
+        <item>RPP200</item>
+    </string-array>
+    <!-- star micronics Printer model-->
+    <string-array name="star_micronics_printer_model">
+        <item>TSP650II BTi</item>
+    </string-array>
+</resources>

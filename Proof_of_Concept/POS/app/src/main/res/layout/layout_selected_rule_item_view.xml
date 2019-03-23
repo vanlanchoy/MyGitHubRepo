@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTitle"
+        android:background="@color/transparent"
+        android:textSize="18dp"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="X"
+        android:textStyle="bold"
+        android:id="@+id/tvRemove"
+        android:textColor="@color/green"
+        android:background="@color/transparent"
+        android:textSize="20dp"/>
+
+</merge>

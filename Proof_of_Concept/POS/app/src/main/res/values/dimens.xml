@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--<dimen name="activity_horizontal_margin">16dp</dimen>-->
+    <!--<dimen name="activity_vertical_margin">16dp</dimen>-->
+    <dimen name="dp_notification_text_size">30dp</dimen>
+    <dimen name="dp_server_message_popup_window_title_text_size">50dp</dimen>
+    <dimen name="dp_server_message_popup_window_msg_text_size">30dp</dimen>
+    <dimen name="top_menu_category_text_size">24dp</dimen>
+    <dimen name="popup_window_label_text_size">30dp</dimen>
+    <dimen name="dp_menu_item_text_size">45dp</dimen>
+    <dimen name="dp_menu_item_popup_modifier_text_size">30dp</dimen>
+    <dimen name="dp_menu_item_popup_active_page_modifier_text_size">30dp</dimen>
+    <dimen name="dp_menu_item_popup_inactive_page_modifier_text_size">20dp</dimen>
+    <dimen name="dp_settings_company_profile_text_size">30dp</dimen>
+    <dimen name="dp_receipt_panel_height_in_menu_item_option_popup_window_when_title_use_two_lines">650dp</dimen>
+    <dimen name="dp_receipt_panel_height_in_menu_item_option_popup_window_when_title_use_one_line">600dp</dimen>
+    <dimen name="dp_settings_receipt_number_prefix_text_size">45dp</dimen>
+    <dimen name="dp_checkout_panel_fragment_text_size">25dp</dimen>
+    <dimen name="dp_server_fragment_text_size">25dp</dimen>
+    <dimen name="dp_promotion_fragment_view_mode_title_text_size">26dp</dimen>
+    <dimen name="dp_discount_amount_text_size">26dp</dimen>
+    <dimen name="dp_discount_amount_label_text_size">28dp</dimen>
+    <dimen name="dp_inventory_popup_window_text_size">22dp</dimen>
+    <dimen name="dp_resource_management_selection_title_text_size">22dp</dimen>
+    <dimen name="dp_chart_options_title_text_size">30dp</dimen>
+    <dimen name="dp_label_text_size">18dp</dimen>
+    <dimen name="dp_promotion_field_label_text_size">20dp</dimen>
+    <dimen name="dp_promotion_summary_popup_title_text_size">25dp</dimen>
+    <dimen name="dp_promotion_summary_popup_text_size">14dp</dimen>
+    <dimen name="dp_chart_panel_receipt_listing_row_bottom_padding">-10dp</dimen>
+</resources>
